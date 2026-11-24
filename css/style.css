@@ -1,0 +1,32 @@
+body {
+    font-family: 'Inter', sans-serif;
+    
+}
+h1{
+    font-size: 3rem;
+}
+#hero p {
+    font-size: 2rem;
+}
+
+.title{
+    color: rgb(91 178 215);
+    font-weight: bold;
+}
+
+.images-proflie{
+    border-radius: 50%;
+    height: 600px;
+    width: 600px;
+}
+.row a {
+    font-size: 2rem;
+}
+
+.card {
+    border: 0px;
+}
+
+.col>p {
+    font-size: 1rem;
+}
