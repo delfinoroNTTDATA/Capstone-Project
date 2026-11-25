@@ -14,14 +14,33 @@
 </head>
 
 <body>
+    <nav class="navbar lg:navbar-expand" data-bs-theme="dark" aria-label="Drawer navbar large">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">RD</a>
+            <button
+                class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#drawerNavbar2"
+                aria-controls="drawerNavbar2" aria-label="Toggle navigation"><span class="navbar-toggler-icon"
+                    aria-hidden="true"></span></button>
+            <dialog class="drawer drawer-end" id="drawerNavbar2" aria-labelledby="drawerNavbar2Label">
+                <div class="drawer-header">
+                    <h5 class="drawer-title" id="drawerNavbar2Label">Drawer</h5><button type="button" class="btn-close"
+                        data-bs-dismiss="drawer" aria-label="Close"></button>
+                </div>
+                <div class="drawer-body">
+                    <ul class="navbar-nav lg:justify-content-end lg:flex-grow-1 pe-3">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="../index.html">Home</a></li>
+                    </ul>
+                </div>
+            </dialog>
+        </div>
     <div class="container-fluid">
         <div class="card">
-            <h3>Work Project</h3>
+            <h3 class="mt-3">Work Project</h3>
 
             <ul>
 
                 <li>
-                    <h4>Manual Test of App IO</h4>
+                    <h4 class="name-project">Manual Test of App IO</h4>
                     <h5>PagoPA S.p.A.</h5>
                     <h6>24/05/2026 - Current</h6>
                     <p>
@@ -37,7 +56,7 @@
                 <hr />
 
                 <li>
-                    <h4>Test Automation e2e Zurich</h4>
+                    <h4 class="name-project">Test Automation e2e Zurich</h4>
                     <h5>ZURICH Italia</h5>
                     <h6>08/09/2025 - 24/05/2026</h6>
                     <p>
@@ -57,7 +76,7 @@
                 <hr />
 
                 <li>
-                    <h4>Test Automation e2e Pago PA</h4>
+                    <h4 class="name-project">Test Automation e2e Pago PA</h4>
                     <h5>PagoPA S.p.A.</h5>
                     <h6>24/05/2026 - Current</h6>
                     <p>
@@ -77,7 +96,7 @@
                 <hr />
 
                 <li>
-                    <h4>PTL 2022</h4>
+                    <h4 class="name-project">PTL 2022</h4>
                     <h5>Poste Italiane SpA.</h5>
                     <h6>04/11/2021 - 31/03/2023</h6>
                     <p>
@@ -101,7 +120,7 @@
                 <hr />
 
                 <li>
-                    <h4>Data entry Smart Run site</h4>
+                    <h4 class="name-project">Data entry Smart Run site</h4>
                     <h5>Notartel SpA</h5>
                     <h6>04/10/2021 - 04/11/2021</h6>
                     <p>
@@ -128,7 +147,7 @@
 
             <ul>
                 <li>
-                    <h4>MASTER IN APPLICATION DEVELOPMENT AND SERVICE</h4>
+                    <h4 class="name-project">MASTER IN APPLICATION DEVELOPMENT AND SERVICE</h4>
 
                     <h5>Consorzio ELIS</h5>
 
@@ -169,7 +188,7 @@
                 </li>
 
                 <li>
-                    <h4>EDUCATIONAL SCIENCE</h4>
+                    <h4 class="name-project">EDUCATIONAL SCIENCE</h4>
 
                     <h5>Università Cattolica del Sacro Cuore</h5>
 
@@ -184,7 +203,7 @@
                 </li>
 
                 <li>
-                    <h4>HIGH SCHOOL OF HUMAN SCIENCES</h4>
+                    <h4 class="name-project">HIGH SCHOOL OF HUMAN SCIENCES</h4>
 
                     <h5>Liceo Parini</h5>
 
@@ -206,7 +225,7 @@
         </div>
         <hr />
 
-        <h3>My Skils</h3>
+        <h3>My Skills</h3>
 
         <ul>
             <li>AWS: ⭐️⭐️⭐️⭐️</li>
@@ -302,6 +321,9 @@
         <div>© 2026</div>
 
     </footer>
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-+PW0IDVGGwmpaBQvcXY+W0BcpHpITFB3dSfSoGvDdHtLbrLpSbpGcvtQRM/BJpz+" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
